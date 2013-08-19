@@ -1,0 +1,35 @@
+/*
+    CONFIG.RC RESOURCE IDH_TEXT Script File for CONFIG.C  	
+*/
+
+#include "confhelp.h"
+
+RESOURCE IDH_TEXT IDH_GENERAL	     general.hlp
+RESOURCE IDH_TEXT IDH_BREAK	     break.hlp
+RESOURCE IDH_TEXT IDH_BUFFERS	     buffers.hlp
+RESOURCE IDH_TEXT IDH_CODEPAGE       codepage.hlp  	
+RESOURCE IDH_TEXT IDH_COUNTRY        country.hlp  	
+RESOURCE IDH_TEXT IDH_DEVICE         device.hlp
+RESOURCE IDH_TEXT IDH_DEVINFO 	     devinfo.hlp
+RESOURCE IDH_TEXT IDH_DISKCACHE      diskcach.hlp
+RESOURCE IDH_TEXT IDH_FCBS           fcbs.hlp
+RESOURCE IDH_TEXT IDH_IFS	     ifs.hlp    
+RESOURCE IDH_TEXT IDH_IOPL           iopl.hlp
+RESOURCE IDH_TEXT IDH_LIBPATH        libpath.hlp
+RESOURCE IDH_TEXT IDH_MAXWAIT        maxwait.hlp
+RESOURCE IDH_TEXT IDH_MEMMAN         memman.hlp
+RESOURCE IDH_TEXT IDH_PAUSEONERROR   pauseone.hlp
+RESOURCE IDH_TEXT IDH_PRIORITY       priority.hlp
+RESOURCE IDH_TEXT IDH_PROTSHELL      protshel.hlp
+RESOURCE IDH_TEXT IDH_PROTECTONLY    protecto.hlp
+RESOURCE IDH_TEXT IDH_REM            rem.hlp
+RESOURCE IDH_TEXT IDH_RMSIZE         rmsize.hlp
+RESOURCE IDH_TEXT IDH_RUN            run.hlp
+RESOURCE IDH_TEXT IDH_SET            set.hlp	
+RESOURCE IDH_TEXT IDH_SHELL          shell.hlp
+RESOURCE IDH_TEXT IDH_SWAPPATH       swappath.hlp
+RESOURCE IDH_TEXT IDH_THREADS        threads.hlp
+RESOURCE IDH_TEXT IDH_TIMESLICE      timeslic.hlp
+RESOURCE IDH_TEXT IDH_TRACE          trace.hlp
+RESOURCE IDH_TEXT IDH_TRACEBUF	     tracebuf.hlp
+

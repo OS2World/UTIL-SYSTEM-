@@ -1,0 +1,17 @@
+The THREADS directive specifies the maximum number of threads which
+can be simultaneously active in the system.  A number of threads are
+expended by the PM Shell and daemon processes such as the swapper and
+critical error handler before any processes are started by the user.
+
+Directive syntax:	THREAD = n  (16-256)
+
+Default value:		64
+
+Multiple occurrences:	No
+
+Affects protected mode:	Yes
+			
+Affects real mode:	No
+
+Example:		THREADS = 128
+

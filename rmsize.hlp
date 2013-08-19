@@ -1,0 +1,17 @@
+The RMSIZE directive controls the amount of memory allocated for use
+by the DOS Compatibility Environment (a.k.a 3.x Box).
+
+Directive syntax:	RMSIZE = n  (where n = 0-640 KB)
+
+Default value:		Top of conventional memory
+
+Multiple occurrences:	No	
+
+Affects protected mode:	No (except that it reserves memory that would
+			otherwise be available for the execution of
+			protected mode programs)
+			
+Affects real mode:	Yes
+
+Example:		RMSIZE = 512
+

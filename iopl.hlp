@@ -1,0 +1,19 @@
+The IOPL directive controls whether the system will allow programs
+containing IOPL segments to be loaded.  Such segments are used by
+programs which access the hardware directly.  System security can be
+improved by placing the directive IOPL=NO in CONFIG.SYS.
+
+Directive syntax:	IOPL = YES|NO
+			or
+			IOPL = pathname[,pathname...]
+
+Default value:		No
+
+Multiple occurrences:	Yes (of second form)
+
+Affects protected mode:	Yes
+			
+Affects real mode:	No
+
+Example:		IOPL = NO  or  IOPL = C:\OS2\CVP.EXE
+

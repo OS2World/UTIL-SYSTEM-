@@ -1,0 +1,17 @@
+The PRIORITY directive specifies whether the OS/2 scheduler is
+allowed to dynamically adjust the priority of threads to balance the
+forward progress of threads and enhance the interactive performance
+of the system.
+
+Directive syntax:	PRIORITY = ABSOLUTE|DYNAMIC
+
+Default value:		DYNAMIC
+
+Multiple occurrences:	No	
+
+Affects protected mode:	Yes
+			
+Affects real mode:	Yes
+
+Example:		PRIORITY = ABSOLUTE
+

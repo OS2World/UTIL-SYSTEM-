@@ -1,0 +1,16 @@
+The RUN directive is used to launch background or "daemon" processes
+during system initialization.  It is analogous to the interactive
+DETACH command.
+
+Directive syntax:	RUN = pathname [application-dependent options]
+
+Default value:		Not applicable
+
+Multiple occurrences:	Yes
+
+Affects protected mode:	Yes
+			
+Affects real mode:	No
+
+Example:		RUN = C:\OS2\EMAIL.EXE
+

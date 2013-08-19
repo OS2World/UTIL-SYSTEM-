@@ -1,0 +1,16 @@
+The PAUSEONERROR directive specifies whether OS/2 will pause during
+the booting process and display an error message for each invalid
+directive it encounters in the CONFIG.SYS file.
+
+Directive syntax:	PAUSEONERROR = YES|NO
+
+Default value:		YES
+
+Multiple occurrences:	No	
+
+Affects protected mode:	Yes
+			
+Affects real mode:	Yes
+
+Example:		PAUSEONERROR = NO
+

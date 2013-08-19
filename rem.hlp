@@ -1,0 +1,15 @@
+The REM directive is used to place free-form text in the CONFIG.SYS
+file for documentation purposes.  REM statements are ignored by OS/2.
+
+Directive syntax:	REM [text...]
+
+Default value:		Not applicable
+
+Multiple occurrences:	Yes
+
+Affects protected mode:	No
+			
+Affects real mode:	No
+
+Example:		REM this is a comment for documentation purposes
+

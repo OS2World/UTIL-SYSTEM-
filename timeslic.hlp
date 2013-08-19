@@ -1,0 +1,20 @@
+The TIMESLICE directive controls the amount of CPU time that a thread
+will be allowed to execute (assuming it doesn't yield control
+explicitly, for example by requesting I/O or blocking on a semaphore)
+before that thread is preempted and control is given to another.  The
+"maximum" parameter is the normal timeslice received by a thread. The
+"minimum" length is given to a thread when its priority is boosted
+artificially after the completion of an I/O operation.
+
+Directive syntax:	TIMESLICE = min,max (msec.)
+
+Default value:		32,248
+
+Multiple occurrences:	No	
+
+Affects protected mode:	Yes
+			
+Affects real mode:	Yes
+
+Example:		TIMESLICE = 64,128
+

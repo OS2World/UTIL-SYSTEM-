@@ -1,0 +1,13 @@
+;
+; CONFIG.DEF Module Definition File for CONFIG.C
+; 
+
+NAME CONFIG WINDOWCOMPAT
+
+DESCRIPTION 'OS/2 Configuration Utility (C) 1989 Ray Duncan'
+
+PROTMODE
+HEAPSIZE  8192
+STACKSIZE 8192
+
+

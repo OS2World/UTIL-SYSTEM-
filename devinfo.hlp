@@ -1,0 +1,15 @@
+The DEVINFO directive prepares a specific device for code page
+switching.  See also CODEPAGE.
+
+Directive syntax:	DEVINFO = devicetype,subtype,pathname
+
+Default value:		Not applicable
+
+Multiple occurrences:	Yes
+
+Affects protected mode:	Yes
+			
+Affects real mode:	Yes
+
+Example:		DEVINFO = SCR,VGA,C:\OS2\VIOTBL.DCP
+

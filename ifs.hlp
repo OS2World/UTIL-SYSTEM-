@@ -1,0 +1,16 @@
+The IFS= directive loads an installable file system driver (FSD). The
+prototype FSD is the High Performance File System (HPFS) of OS/2
+version 1.2.
+
+Directive syntax:	IFS = pathname
+
+Default value:		Not applicable
+
+Multiple occurrences:	Yes
+
+Affects protected mode:	Yes
+			
+Affects real mode:	Yes
+
+Example:		IFS = C:\OS2\HPFS.SYS
+

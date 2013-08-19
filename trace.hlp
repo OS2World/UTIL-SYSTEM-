@@ -1,0 +1,17 @@
+The TRACE directive enables or disables the capture of execution
+trace information for the specified event types.  The optional
+pathname can be used to specify a file that contains a list of event
+types.
+
+Directive syntax:	TRACE = ON|OFF [pathname][,event[,event...]]
+
+Default value:		OFF
+
+Multiple occurrences:	Yes
+
+Affects protected mode:	Yes
+			
+Affects real mode:	Yes
+
+Example:		TRACE = ON 24
+

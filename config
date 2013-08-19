@@ -1,0 +1,18 @@
+config.res : config.rc confhelp.h\
+  general.hlp break.hlp buffers.hlp codepage.hlp country.hlp\
+  device.hlp devinfo.hlp diskcach.hlp fcbs.hlp ifs.hlp iopl.hlp\
+  libpath.hlp maxwait.hlp memman.hlp pauseone.hlp priority.hlp protshel.hlp\
+  protecto.hlp rem.hlp rmsize.hlp run.hlp set.hlp shell.hlp swappath.hlp\
+  threads.hlp timeslic.hlp trace.hlp tracebuf.hlp
+  rc -r config
+
+config.exe : config.c config.def config.h confhelp.h
+  cl /c /Zi config.c
+  link /CO config,config.exe,,os2,config.def
+  rc config.res
+
+config.exe : config.res
+  rc config.res
+
+
+

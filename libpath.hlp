@@ -1,0 +1,17 @@
+The LIBPATH directive specifies the directories in which the system
+will search for dynamic link libraries (DLLs) when an protected mode
+application program is loaded.  The directory alias "." (which
+represents the current directory) may be used.
+
+Directive syntax:	LIBPATH = path[,path...]
+
+Default value:		Root directory of boot drive
+
+Multiple occurrences:	No
+
+Affects protected mode:	Yes
+			
+Affects real mode:	No
+
+Example:		LIBPATH = .;C:\OS2\DLL;C:\PMSDK\DLL;C:\
+

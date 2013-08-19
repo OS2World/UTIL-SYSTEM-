@@ -1,0 +1,15 @@
+The DISKCACHE directive controls the size of the cache used by
+OS/2's fixed disk driver.  See also BUFFERS=.
+
+Directive syntax:	DISKCACHE = n   (KB)
+
+Default value:		No cache
+
+Multiple occurrences:	No
+
+Affects protected mode:	Yes
+			
+Affects real mode:	Yes
+
+Example:		DISKCACHE = 64
+

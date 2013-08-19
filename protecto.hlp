@@ -1,0 +1,16 @@
+The PROTECTONLY directive enables or disables the DOS Compatibility 
+Environment (also known as the 3.x Box).  System security is improved
+by placing the directive PROTECTONLY=YES in CONFIG.SYS.
+
+Directive syntax:	PROTECTONLY = YES|NO
+
+Default value:		NO
+
+Multiple occurrences:	No	
+
+Affects protected mode:	No
+			
+Affects real mode:	Yes
+
+Example:		PROTECTONLY = YES
+

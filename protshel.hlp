@@ -1,0 +1,16 @@
+The PROTSHELL directive specifies the name of the program used as the
+PM shell and the name of the program used as a command line processor
+in windowed or full-screen command line sessions.  
+
+Directive syntax:	PROTSHELL = shellname,commandprocessorname [options]
+
+Default value:		PMSHELL.EXE,CMD.EXE
+
+Multiple occurrences:	No	
+
+Affects protected mode:	Yes
+			
+Affects real mode:	No
+
+Example:		PROTSHELL=MINSHELL,CMD.EXE /K INIT.CMD
+

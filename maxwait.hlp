@@ -1,0 +1,19 @@
+The MAXWAIT directive specifies the maximum length of time that a
+thread may be "starved" for CPU cycles.  If a thread fails to receive
+the CPU for MAXWAIT seconds because of other, higher-priority threads
+in the system, its priority will be temporarily adjusted upwards so
+that it can make some forward progress.  If PRIORITY=ABSOLUTE, the
+MAXWAIT directive has no effect.
+
+Directive syntax:	MAXWAIT = n  (1-255 seconds)
+
+Default value:		3
+
+Multiple occurrences:	No	
+
+Affects protected mode:	Yes
+			
+Affects real mode:	Yes
+
+Example:		MAXWAIT = 1
+

@@ -1,0 +1,19 @@
+The DOS Compatibility Environment of OS/2 (a.k.a 3.x Box) simulates a
+MS-DOS 3.3 environment with SHARE.EXE loaded.  The FCBS directive
+controls the maximum number of files that can be opened
+simultaneously using FCB file function calls, and also specifies how
+many of those FCBs will be protected against automatic closing by the
+operating system.
+
+Directive syntax:	FCBS = maximum,protected
+
+Default value:		16,8
+
+Multiple occurrences:	No	
+
+Affects protected mode:	No
+			
+Affects real mode:	Yes
+
+Example:		FCBS = 8,4
+

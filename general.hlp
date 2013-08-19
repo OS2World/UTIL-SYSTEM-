@@ -1,0 +1,17 @@
+Summary of OS/2 CONFIG.SYS directives:
+
+BREAK      ON|OFF                    ³  PAUSEONERROR YES|NO
+BUFFERS    4-99                      ³  PRIORITY     ABSOLUTE|DYNAMIC
+CODEPAGE   primary[,secondary]       ³  PROTECTONLY  YES|NO
+COUNTRY    countrycode               ³  PROTSHELL    shell,cmdprocessor
+DEVICE     pathname                  ³  REM          any text
+DEVINFO    devtype,subtype,pathname  ³  RMSIZE       0-640 (KB)
+DISKCACHE  64-6900 (KB)              ³  RUN          pathname
+FCBS       maximum,protected         ³  SET          environmentname=value
+IFS        pathname                  ³  SHELL        pathname
+IOPL       YES|NO                    ³  SWAPPATH     drive:[path]
+IOPL       pathname[,pathname...]    ³  THREADS      16-256
+LIBPATH    path[;path...]            ³  TIMESLICE    min,max (msec)
+MAXWAIT    1-255 (seconds)           ³  TRACE        ON|OFF [event[,event...]]
+MEMMAN     SWAP|NOSWAP,MOVE|NOMOVE   ³  TRACEBUF     1-63 (KB)
+

@@ -1,0 +1,16 @@
+The CODEPAGE directive selects a primary (and optionally a secondary)
+code page for the system.  Code pages relate ASCII character codes to
+keyboard scan codes and individual display elements.
+
+Directive syntax:	CODEPAGE = primary[,secondary]
+
+Default value:		OEM dependent
+
+Multiple occurrences:	No	
+
+Affects protected mode:	Yes
+			
+Affects real mode:	Yes
+
+Example:		CODEPAGE = 437,850
+

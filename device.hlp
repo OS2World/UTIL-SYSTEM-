@@ -1,0 +1,18 @@
+The DEVICE directive loads an installable device driver.  Drivers are
+typically found in a file with the .SYS extension.  DEVICE=
+statements are processed in order, and are sensitive to the order of
+IFS= statements as well.  All bimodal drivers are loaded before any
+real-mode-only drivers such as EGA.SYS.
+
+Directive syntax:	DEVICE = pathname
+
+Default value:		Not applicable
+
+Multiple occurrences:	Yes
+
+Affects protected mode:	Yes
+			
+Affects real mode:	Yes
+
+Example:		DEVICE = C:\DRIVERS\COM01.SYS
+

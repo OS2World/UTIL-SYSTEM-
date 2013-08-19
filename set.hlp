@@ -1,0 +1,17 @@
+The SET directive is used to add or modify environment variables.  It
+is equivalent to the SET command that can be used interactively or in
+a batch file, except that the SET directives in CONFIG.SYS control the
+master environment for all windowed or full-screen processes.
+
+Directive syntax:	SET name = value
+
+Default value:		Not applicable
+
+Multiple occurrences:	Yes
+
+Affects protected mode:	Yes
+			
+Affects real mode:	No
+
+Example:		SET LIB = C:\PMSDK\LIB
+

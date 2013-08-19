@@ -1,0 +1,16 @@
+The BREAK directive enables or disables OS/2's checking for the
+user's entry of Control-C and Control-Break during certain function
+calls in the DOS Compatibility Environment.
+
+Directive syntax:	BREAK = ON|OFF
+
+Default value:		OFF
+
+Multiple occurrences:	No	
+
+Affects protected mode:	No
+			
+Affects real mode:	Yes
+
+Example:		BREAK = OFF
+

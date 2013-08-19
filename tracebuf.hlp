@@ -1,0 +1,16 @@
+The TRACEBUF directive controls the size of the buffer used to store
+TRACE events.  The TRACEBUF directive is ignored if the directive
+TRACE=OFF is present.
+
+Directive syntax:	TRACEBUF = n   (where n=1-63 KB)
+
+Default value:		4 (KB, if TRACE ON)
+
+Multiple occurrences:	No	
+
+Affects protected mode:	Yes
+			
+Affects real mode:	Yes
+
+Example:		TRACEBUF = 8
+
